@@ -1,0 +1,85 @@
+{
+  "benchmark_metadata": {
+    "build_type": "Release",
+    "compiler_id": "AppleClang",
+    "compiler_version": "16.0.0.16000026",
+    "input": "uint8 grayscale .npy images scaled to [0, 1]",
+    "kernel": "normalized Gaussian, sigma = 0.3 * ((K - 1) / 2 - 1) + 0.8",
+    "openmp_max_threads": "12",
+    "openmp_processors": "12",
+    "openmp_version": "202011"
+  },
+  "captured_at_local": "2026-10-28T14:21:43.794937-04:00",
+  "captured_at_utc": "2026-10-28T18:21:43.794932+00:00",
+  "cmake_cache": {
+    "CMAKE_BUILD_TYPE": "Release",
+    "CMAKE_CXX_COMPILER": "/usr/bin/c++",
+    "CMAKE_CXX_FLAGS": "",
+    "CMAKE_CXX_FLAGS_RELEASE": "-O3 -DNDEBUG",
+    "CMAKE_GENERATOR": "Unix Makefiles",
+    "OpenMP_CXX_SPEC_DATE": "202011"
+  },
+  "cmake_version": "cmake version 4.2.0",
+  "compiler_version_banner": "Apple clang version 16.0.0 (clang-1600.0.26.6)",
+  "git": {},
+  "load_average_1_5_15": [
+    3.98046875,
+    3.5966796875,
+    4.0966796875
+  ],
+  "logical_cores": 12,
+  "machine": "arm64",
+  "macos": {
+    "hardware_overview": {
+      "Chip": "Apple M4 Pro",
+      "Memory": "24 GB",
+      "Model Identifier": "Mac16,8",
+      "Model Name": "MacBook Pro",
+      "Total Number of Cores": "12 (8 performance and 4 efficiency)"
+    },
+    "libomp": {
+      "prefix": "/opt/homebrew/opt/libomp",
+      "resolved": "/opt/homebrew/Cellar/libomp/23.1.1",
+      "version": "23.1.1"
+    },
+    "macos_build": "24G90",
+    "macos_version": "15.6.1",
+    "memory_gib": 24.0,
+    "power_source": "Now drawing from 'AC Power'",
+    "powermode": "0",
+    "sysctl": {
+      "hw.cachelinesize": "128",
+      "hw.logicalcpu": "12",
+      "hw.memsize": "25769803776",
+      "hw.model": "Mac16,8",
+      "hw.ncpu": "12",
+      "hw.nperflevels": "2",
+      "hw.pagesize": "16384",
+      "hw.perflevel0.l1dcachesize": "131072",
+      "hw.perflevel0.l2cachesize": "16777216",
+      "hw.perflevel0.name": "Performance",
+      "hw.perflevel0.physicalcpu": "8",
+      "hw.perflevel1.l1dcachesize": "65536",
+      "hw.perflevel1.l2cachesize": "4194304",
+      "hw.perflevel1.name": "Efficiency",
+      "hw.perflevel1.physicalcpu": "4",
+      "hw.physicalcpu": "12",
+      "machdep.cpu.brand_string": "Apple M4 Pro"
+    }
+  },
+  "openmp_environment": {},
+  "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "provenance": "Measured before this repository's first commit; the per-file source SHA-256 values in environment.json match the committed sources",
+  "python": "CPython 3.14.4",
+  "source_sha256": {
+    "benchmark/convolution_benchmark.cpp": "3d46ce9882418f2aa7134592481ad918646667c12d53efd5105452046f46e5d3",
+    "src/conv_omp_cli.cpp": "2cad3d0a5bfb4a5b478382d49bc4ab5750e668571c47588e93ef5179fa35f2d9",
+    "src/conv_optimized_cli.cpp": "75aa60d91a2555a555240fb948d81505202e0e0e842005b0c0916b17228cc76d",
+    "src/conv_serial_cli.cpp": "904db2a543392011d74b6e0168d965227f4a1aec9e590f9a4e15ff15b626079e",
+    "src/convolution.hpp": "4c80a21316d1b12b2905c6155619de48a7c87257f3e52d3decd05f813aa55ae0",
+    "src/convolution_omp_basic.cpp": "c282432fdf17b64a06f83ef8b2afd9f232123cf314dc09510fd28f34376e2aee",
+    "src/convolution_omp_optimized.cpp": "e9dab5a908e5056cbe0578a22f5caa9d5a4f831ce1e1e97830eacb00124f6c79",
+    "src/convolution_serial.cpp": "c79ae9da0e5a1d405ec625bd9969192f42a36ee6393cf8566c70bf6d0847209c"
+  },
+  "system": "Darwin"
+}

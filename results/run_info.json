@@ -1,0 +1,207 @@
+{
+  "commands": {
+    "end_to_end_unit": "'/Users/jiaqihan/0.Waterloo/ECE750/Assignment 1/parallel-conv2d/build/convolution_benchmark' IMPLEMENTATION K THREADS 0 1 IMAGE.npy (first image; timed as a whole process)",
+    "timing_unit": "'/Users/jiaqihan/0.Waterloo/ECE750/Assignment 1/parallel-conv2d/build/convolution_benchmark' IMPLEMENTATION K THREADS 3 10 IMAGE.npy ... (10 images of size N)"
+  },
+  "finished_utc": "2026-10-28T18:28:11.750459+00:00",
+  "invocation": "'/Users/jiaqihan/0.Waterloo/ECE750/Assignment 1/parallel-conv2d/.venv/bin/python3' '/Users/jiaqihan/0.Waterloo/ECE750/Assignment 1/parallel-conv2d/benchmark/run_experiments.py' --build-dir '/Users/jiaqihan/0.Waterloo/ECE750/Assignment 1/parallel-conv2d/build' --output-dir '/Users/jiaqihan/0.Waterloo/ECE750/Assignment 1/parallel-conv2d/results'",
+  "log": "logs/run_20261028T182143Z.log",
+  "parameters": {
+    "correctness_tests": 21,
+    "dataset": {
+      "archive_sha256": "20dd31fd84d777bc1cf5d6b7654a3f569c0aec74458ae094122ad1d0489900fc",
+      "images": [
+        {
+          "file": "0801.png",
+          "id": "0801",
+          "original_size": [
+            2040,
+            1356
+          ],
+          "sha256": "ab5cf6a1cac2d1c2d0792dbd274fd2e53e42118ab6537771a825fd87aa28a60c"
+        },
+        {
+          "file": "0802.png",
+          "id": "0802",
+          "original_size": [
+            2040,
+            1356
+          ],
+          "sha256": "4ad6f3ca8bf740192042978121f05ec493ddbe5a3da5584eaf0d9699c25ee431"
+        },
+        {
+          "file": "0803.png",
+          "id": "0803",
+          "original_size": [
+            2040,
+            1536
+          ],
+          "sha256": "4b0148a9a1ff877ad9f76e65736a50cc36e10822b5d8ccd2abb2988ff4e1782b"
+        },
+        {
+          "file": "0804.png",
+          "id": "0804",
+          "original_size": [
+            2040,
+            1200
+          ],
+          "sha256": "16b5fdbe808b868bed0be32f235208a1716d44e271a37b79cbc77ab53d2f6bdb"
+        },
+        {
+          "file": "0805.png",
+          "id": "0805",
+          "original_size": [
+            2040,
+            1536
+          ],
+          "sha256": "e28d56feee10c2e2663f347dda574fff736894dba37341d37b91bac2ecd863b2"
+        },
+        {
+          "file": "0806.png",
+          "id": "0806",
+          "original_size": [
+            2040,
+            1356
+          ],
+          "sha256": "36720ddd59f8b3eed28f8981e12e6e2d680bfa78b9d25f33ec4152013652c713"
+        },
+        {
+          "file": "0807.png",
+          "id": "0807",
+          "original_size": [
+            2040,
+            1128
+          ],
+          "sha256": "4a2493d918862f703f783dc675bacbae5bd7698aa58f81ddb8bb71cf39ac173a"
+        },
+        {
+          "file": "0808.png",
+          "id": "0808",
+          "original_size": [
+            2040,
+            1356
+          ],
+          "sha256": "956528ab3e0fadad1ed8ce93f93a30bf9f58c36ffa9dd775e2ad362ffdcf5ace"
+        },
+        {
+          "file": "0809.png",
+          "id": "0809",
+          "original_size": [
+            2040,
+            1356
+          ],
+          "sha256": "a0b094da02bcaeabea1976fb939c87366d437bdda1a796fbc3f4700fb5e7bbed"
+        },
+        {
+          "file": "0810.png",
+          "id": "0810",
+          "original_size": [
+            2040,
+            1536
+          ],
+          "sha256": "6940c660b97d2c5f1113101c3e6360d1d6886743c5796cad52224b8076b903f8"
+        }
+      ],
+      "license": "made available for academic research purposes only",
+      "name": "DIV2K validation set (high-resolution photos)",
+      "npy_pixel_sha256": {
+        "npy/1024/0801.npy": "143515d2e8f1e62ebda59740db84a4e04876c42975614bb63c3bbe65d39caa50",
+        "npy/1024/0802.npy": "ecceabb51ec8bd2a7a37b3affd8e296b15293344e049c0693bdfeefb365280f2",
+        "npy/1024/0803.npy": "e0238eaa31e46773975a4a7bdcfb77fef20c93303f0813627ca526dbfb0b0a34",
+        "npy/1024/0804.npy": "cd72efd50622e147c2cc103c14413c7c48070a2a993dbbac90bbc8f3a7ff15d3",
+        "npy/1024/0805.npy": "cd907b3c914c4a3e04728329a570ec3b767a01da1151f4fc0471e0412c453d60",
+        "npy/1024/0806.npy": "d293263302241983d26eba9ccdd1de4382d8b4f4604079db404c820735d6e3b7",
+        "npy/1024/0807.npy": "a209cd43a20f4aee952922af5d4fc393257d99782e49744a2e73cb1a9ca97cbe",
+        "npy/1024/0808.npy": "ed29005735749df08edcd7ea05a7eb86641de635e85010b75a6c2078740249b8",
+        "npy/1024/0809.npy": "072898880cb7ba0337b329d9a855f770f2fd44057f44697153a4f053c11f10d3",
+        "npy/1024/0810.npy": "bc18e2c77f156440ad02ef69c805d3b0fcddd4b9dfb00be5a6969eadc0f9b971",
+        "npy/2048/0801.npy": "c6b2afc426f6cf4837820e28e37d189a6bb2d83372a05968c44745c8ff22ce34",
+        "npy/2048/0802.npy": "da01c1c74d04b08a58c16e86b5cad9ea177702d4ab2544103d6d2120121da833",
+        "npy/2048/0803.npy": "43518141fb46b5b0f9190096ce7a5f22ceb2456d7a09c519e6b743b95ff6ebf0",
+        "npy/2048/0804.npy": "9bf5e699cec4ae99595d3069a30afa18cf98b6e7db3dc8c4107ffc8861bd3de2",
+        "npy/2048/0805.npy": "0ad59981408982f938934d927de44e44564f1e6762271fc6b8255c4e067fc0db",
+        "npy/2048/0806.npy": "a82fe9c358bc212f6fe0984e6b51573be06d71d1f65d5497ae84568d1c46bef5",
+        "npy/2048/0807.npy": "839eb009aa982cdb0809e4b366166f793f63274a9d3cb5213eb505d9845380f3",
+        "npy/2048/0808.npy": "f950eabe05f82a49f59e1200c141fc5efbde3447e159b66f8a05b84dc99aee7e",
+        "npy/2048/0809.npy": "baff727056f76fb92b27bf5dbef96e838e0b6e5346d6de913fced70558d5e262",
+        "npy/2048/0810.npy": "ae45a73f4c75f1004e5a1b258c94260430fa862b0c8a3e54ac6415f8c3644548",
+        "npy/256/0801.npy": "cba8775344a37a1416a4852f651b8d73502a9523d5e27c9d8ae913bce98eb5a8",
+        "npy/256/0802.npy": "85961fe36362ffad5e29bf75001f4e7b984e5ce0fee9911d39fe2209f8642aad",
+        "npy/256/0803.npy": "1204ee756d08be32d010dbdf30bb6fd1a85bbf7887bb673696edc9505e37840c",
+        "npy/256/0804.npy": "0d4f8ce6725b90196b61c2cf6c84415ec97f386d861d99d2cde45cfc203d6256",
+        "npy/256/0805.npy": "db8a95b47c475dfed2608e6ebe5ecbff4d23dbb2331d2cfd9a706d19566c2fb5",
+        "npy/256/0806.npy": "d53590dd5bf50f4d1f8085fb5bb1910cb4e2c6fbbad62335b985775fb024699d",
+        "npy/256/0807.npy": "bf3db1fac6570ed7663b0e17b49350bf23d884828f5447803c408d61e8410814",
+        "npy/256/0808.npy": "8cf646ef4fce75896a1959247a8056b807569a1c9f806bacdb70fbcddd76d494",
+        "npy/256/0809.npy": "7cd0ba5e975783c12a2d63b7e6765605aea1f865bb41bb3cf9a09f9c4f85b5e2",
+        "npy/256/0810.npy": "15a714eb912c14226e84fab3f813a27242ee670ba5e51679e967e11b03601052",
+        "npy/4096/0801.npy": "34ae35da60c4a58387126fbdb508ac665f28d2cb16a0907aecf1ee9b85f496f0",
+        "npy/4096/0802.npy": "24e515a29bf12dcd9b9a3c157975d99346f1eee8b95e0bbcc30cd6e721f590ca",
+        "npy/4096/0803.npy": "ac74bad978e7ced7ce107c205fcb71e4f1696725b446439f5c23f2c58cde85e5",
+        "npy/4096/0804.npy": "bf98856afdd96bbd72f9cb38e0d71fb8a39af826c9f2f7f67fb5732f1b31f10c",
+        "npy/4096/0805.npy": "528e57d74e98e212da594c1a3a217623164655660c42d02704ce57089ded7088",
+        "npy/4096/0806.npy": "dd790ff638c91768b931579e2e55bb262b7cdadfcc4f265b6857b37245d23ec2",
+        "npy/4096/0807.npy": "c2026c4e02983a90d737bc38070a7a9805eefbc10322f7c05df9848acf2bb534",
+        "npy/4096/0808.npy": "796de4274da19c702f742076235b4b2f20a7edc9fc389d6a1aec00125a1de0fd",
+        "npy/4096/0809.npy": "ed51043343d4c37a5827621f7796a5c7f78b8805fedea6f4f5f0f95ff1395b27",
+        "npy/4096/0810.npy": "54065861c2181f6a3b05d7377b4a137df5ba36ea5470f7f84ecf40a5e6e7e4b2",
+        "npy/512/0801.npy": "c5328412e8e150091f6ecbd589fce4dc78fa62483a9ca5f22dd2d0f8728b16c4",
+        "npy/512/0802.npy": "bb758f6f4e59279469057eb52741d86d2ec023e71804c0d5e4efad9b16991636",
+        "npy/512/0803.npy": "7a77c0fc38e8ae55c815613af2d204f80fc7cf5c73b823549cae5eabe8dee8bf",
+        "npy/512/0804.npy": "7a8e691c99dde78768c9a2c06b9a71b7e2c77262b619a9861425bf50dd9dcad9",
+        "npy/512/0805.npy": "3ce737b215e20115d590c5c1fc136f2567e143e746cedb0f6c970ee3820523ff",
+        "npy/512/0806.npy": "ee5aff5f601aa65f0d2ed2c9115a4d3d49bbfa8dbf742279ea27f2c1e8a11289",
+        "npy/512/0807.npy": "32ce1c9409626672a8f957c3d0eecef3f7918201ed4a55c99e9491b1dfb6c335",
+        "npy/512/0808.npy": "7c0d713f6f6a39a22a4577297cf557dfaa3471d0add13c1c2b1a932e2d76da7b",
+        "npy/512/0809.npy": "217a49b0a2b821d0c3bfc5be1fb428c8d0461971a814fcd96dc2e9cdd08d4de7",
+        "npy/512/0810.npy": "26105a5c27341aa5f25c381ac7080d52c7ecdafbabdcd9095a75fa7053c1c973"
+      },
+      "preprocessing": "8-bit grayscale (ITU-R BT.601 luma, Pillow mode L), central square crop, Lanczos resize to N x N (upscaling when N exceeds the square); stored as uint8 .npy and scaled to [0, 1] by the harness",
+      "source": "div2k",
+      "url": "https://data.vision.ee.ethz.ch/cvl/DIV2K/DIV2K_valid_HR.zip"
+    },
+    "end_to_end_configurations": 54,
+    "end_to_end_kernels": [
+      3,
+      5
+    ],
+    "end_to_end_repeats": 5,
+    "end_to_end_shuffle_seed": 750,
+    "image_order": "warm-up calls use the first image; timed call r uses image r mod the image count",
+    "image_sizes": [
+      256,
+      512,
+      1024,
+      2048,
+      4096
+    ],
+    "kernel": "normalized K x K Gaussian blur, outer product of a 1-D Gaussian with sigma = 0.3 * ((K - 1) / 2 - 1) + 0.8 (OpenCV's default sigma rule); see benchmark/npy_image.hpp",
+    "kernel_sizes": [
+      3,
+      5,
+      7,
+      11
+    ],
+    "matrix_configurations": 300,
+    "measured_runs": 10,
+    "statistic": "median of the timed calls; speedup = T_impl(1) / T_impl(p); speedup_vs_serial = T_serial / T_impl(p); efficiency = speedup / p",
+    "thread_counts": [
+      1,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "warmup_runs": 3
+  },
+  "phase_seconds": {
+    "correctness_gate": 19.189755541970953,
+    "dataset": 201.8179664160125,
+    "end_to_end": 10.843469958053902,
+    "matrix": 155.79099008301273
+  },
+  "started_utc": "2026-10-28T18:21:43.792944+00:00",
+  "wall_seconds": 387.957515
+}

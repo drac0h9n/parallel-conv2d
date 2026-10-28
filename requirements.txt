@@ -1,0 +1,6 @@
+# Correctness tests: PyTorch is the independent reference; Pillow reads the ImageNet images.
+numpy>=1.21
+torch>=1.12
+pillow>=9.0
+# Charts (benchmark/plot.py).
+matplotlib>=3.5

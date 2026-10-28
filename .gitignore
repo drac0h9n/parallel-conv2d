@@ -1,0 +1,42 @@
+# Build output and binaries
+build/
+bin/
+*.o
+*.a
+*.so
+*.dylib
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+
+# Datasets (downloaded into ./data or generated on the fly): never committed
+data/
+*.tar.gz
+*.zip
+*.part
+*.raw
+*.bin
+*.npy
+*.npz
+*.pkl
+*.JPEG
+*.jpg
+*.jpeg
+# Images: only the charts in results/ are tracked
+*.png
+!results/*.png
+
+# Benchmark run logs and scratch output
+results/logs/
+results/.publish-*/
+*.tmp
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
